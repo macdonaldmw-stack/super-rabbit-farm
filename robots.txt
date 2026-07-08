@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://macdonaldmw-stack.github.io/super-rabbit-farm/sitemap.xml
