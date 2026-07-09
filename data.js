@@ -84,5 +84,25 @@ const galleryData = [
     "id": 4,
     "caption": "Palomino and baby",
     "photo": "images/image10.jpeg"
+  },
+  {
+    "id": 5,
+    "caption": "Silver Marten",
+    "photo": "images/01.jpg"
+  },
+  {
+    "id": 6,
+    "caption": "Silver Marten",
+    "photo": "images/04.jpg"
+  },
+  {
+    "id": 7,
+    "caption": "Silver Marten",
+    "photo": "images/05.jpg"
+  },
+  {
+    "id": 8,
+    "caption": "Chinchilla",
+    "photo": "images/06.jpg"
   }
 ];
