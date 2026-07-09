@@ -106,7 +106,7 @@ nav a:hover, nav a.active{opacity:1; border-bottom-color: var(--clay-light);}
 .page-banner .eyebrow{color:var(--gold); justify-content:center; display:flex;}
 .page-banner h1{
   font-family:var(--font-display);
-  font-size:clamp(2rem, 4.5vw, 2.8rem);
+  font-size:clamp(1.6rem, 7vw, 2.8rem);
   margin-bottom:0.6rem;
 }
 .page-banner p{
@@ -131,7 +131,7 @@ section{ padding: 4rem 1.5rem; }
 .section-head .eyebrow{color:var(--clay-dark);}
 .section-head h2{
   font-family: var(--font-display);
-  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  font-size: clamp(1.35rem, 5.5vw, 2.2rem);
   color: var(--forest);
   margin-bottom:0.6rem;
 }
@@ -177,11 +177,12 @@ section{ padding: 4rem 1.5rem; }
 }
 @media (max-width:850px){
   .hero-inner{grid-template-columns:1fr; text-align:center; padding-bottom:2rem;}
+  .hero-scene{ max-width:280px; margin:0 auto; }
 }
 .hero h1{
   font-family: var(--font-display);
-  font-size: clamp(2.2rem, 5vw, 3.4rem);
-  line-height:1.08;
+  font-size: clamp(1.8rem, 7.5vw, 3.4rem);
+  line-height:1.1;
   margin-bottom:1rem;
 }
 .hero p.lede{
@@ -414,4 +415,30 @@ footer.site-footer{
 @media (prefers-reduced-motion: reduce){
   html{scroll-behavior:auto;}
   .btn:hover, .map-card:hover{transform:none;}
+}
+
+/* ===== SMALL PHONE REFINEMENTS ===== */
+@media (max-width:480px){
+  header{ padding: 0.75rem 1.1rem; }
+  .brand{ font-size: 1.02rem; gap:0.45rem; }
+  .brand .mark{ width:28px; height:28px; }
+  .brand small{ font-size: 0.56rem; letter-spacing:1px; }
+
+  .hero{ padding: 3rem 1.1rem 0; }
+  .hero p.lede{ font-size:0.92rem; }
+  .hero-scene{ max-width:220px; }
+  .btn{ padding:0.7rem 1.2rem; font-size:0.88rem; }
+
+  .page-banner{ padding: 2.4rem 1.1rem 2.8rem; }
+  .page-banner p{ font-size:0.9rem; }
+
+  section{ padding: 2.6rem 1.1rem; }
+  .section-head p{ font-size:0.9rem; }
+
+  .stat-strip{ gap:1.4rem; padding: 1.4rem 1.1rem; }
+  .stat .num{ font-size:1.5rem; }
+  .stat .label{ font-size:0.68rem; }
+
+  .map-card{ padding: 1.5rem 1.2rem; }
+  .ear-tag, .breed-card{ padding: 1.1rem 1rem 1rem 1.3rem; }
 }
