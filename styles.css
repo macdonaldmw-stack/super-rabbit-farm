@@ -1,17 +1,17 @@
-/* ===== PALETTE: Warm Terracotta / Rust ===== */
+/* ===== PALETTE: Earthy Brown / Mustard ===== */
 /* To use: rename this file to styles.css in your farm-site folder */
 
 :root{
-  --forest:#6B3420;
-  --forest-dark:#4A2416;
-  --clay:#E07A3E;
-  --clay-dark:#C1602A;
-  --clay-light:#F0A374;
-  --sand:#FBF1E4;
-  --sand-dark:#F0E0C8;
-  --charcoal:#2B211C;
-  --cream-text:#FFF8EE;
-  --gold:#E8A34F;
+  --forest:#3B2A1E;
+  --forest-dark:#241A12;
+  --clay:#C9962C;
+  --clay-dark:#A67821;
+  --clay-light:#E0B75C;
+  --sand:#F4EEE0;
+  --sand-dark:#E8DCC0;
+  --charcoal:#2A2117;
+  --cream-text:#FBF6EA;
+  --gold:#D9A93D;
   --font-display: 'Rockwell', 'Roboto Slab', 'Georgia', serif;
   --font-body: 'Helvetica Neue', Arial, sans-serif;
   --font-mono: 'Courier New', monospace;
